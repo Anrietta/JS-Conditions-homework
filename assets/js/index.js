@@ -11,11 +11,27 @@
 // Інакше - вивести, що сума не кратна 5
 // (одна перевірка на if, і гілка else, якщо ні)
 
+// const num1 = Number(prompt('Enter the first number:')),
+//       num2 = Number(prompt('Enter the second number:')),
+//       sum = num1 + num2;
+
+// if (sum % 5 == 0) {
+//     alert('The sum is a multiple of 5');
+// } else {
+//     alert('The sum is not a multiple of 5');
+// }
+
 
 
 
 
 // 2. Написати функцію, яка приймає сторону квадрата та повертає його площу
+
+const a = Number(prompt('Enter length of the side of the square:'))
+if (!isNaN(a)) {
+    alert(`The area of the square equals ` + Math.pow(a, 2));
+    // console.log(Math.pow(a, 2));
+}
 
 
 
