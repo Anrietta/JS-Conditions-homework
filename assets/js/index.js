@@ -11,15 +11,15 @@
 // Інакше - вивести, що сума не кратна 5
 // (одна перевірка на if, і гілка else, якщо ні)
 
-// const num1 = Number(prompt('Enter the first number:')),
-//       num2 = Number(prompt('Enter the second number:')),
-//       sum = num1 + num2;
+const num1 = Number(prompt('Enter the first number:')),
+      num2 = Number(prompt('Enter the second number:')),
+      sum = num1 + num2;
 
-// if (sum % 5 == 0) {
-//     alert('The sum is a multiple of 5');
-// } else {
-//     alert('The sum is not a multiple of 5');
-// }
+if (sum % 5 == 0) {
+    alert('The sum is a multiple of 5');
+} else {
+    alert('The sum is not a multiple of 5');
+}
 
 
 
@@ -27,11 +27,11 @@
 
 // 2. Написати функцію, яка приймає сторону квадрата та повертає його площу
 
-// const a = Number(prompt('Enter length of the side of the square:'))
-// if (!isNaN(a)) {
-//     alert(`The area of the square equals ` + Math.pow(a, 2));
-//     // console.log(Math.pow(a, 2));
-// }
+const a = Number(prompt('Enter length of the side of the square:'))
+if (!isNaN(a)) {
+    alert(`The area of the square equals ` + Math.pow(a, 2));
+    // console.log(Math.pow(a, 2));
+}
 
 
 
@@ -47,19 +47,19 @@
 
 // Задачу вирішити через оператор switch-case
 
-// const menu = Number(prompt('Enter the number of drink: \n 1 - tea \n 2 - coffee \n 3 - juice \n 4 - water \n'));
+const menu = Number(prompt('Enter the number of drink: \n 1 - tea \n 2 - coffee \n 3 - juice \n 4 - water \n'));
 
-// if (menu === 1) {
-//     alert('You have chosen tea');
-// } else if (menu === 2) {
-//     alert('You have chosen coffee');
-// } else if (menu === 3) {
-//     alert('You have chosen juice');
-// } else if (menu === 4) {
-//     alert('You have chosen water');
-// } else {
-//     alert('Sorry, you have entered wrong number! Choose one of the offered drinks!');
-// }
+if (menu === 1) {
+    alert('You have chosen tea');
+} else if (menu === 2) {
+    alert('You have chosen coffee');
+} else if (menu === 3) {
+    alert('You have chosen juice');
+} else if (menu === 4) {
+    alert('You have chosen water');
+} else {
+    alert('Sorry, you have entered wrong number! Choose one of the offered drinks!');
+}
 
 
 
@@ -70,35 +70,35 @@
 // Знижка 3% надається, якщо сума покупки більша за 500 грн., а знижка 5% - якщо сума покупки більша за 800 грн. Використати тернарний оператор
 
 
-// const amount = Number(prompt('Enter the amount of your purschase to get your discount: '))
-// const currency = ' UAH';
-// const discountMin = 3,
-//       discountMax = 5;
+const amount = Number(prompt('Enter the amount of your purschase to get your discount: '))
+const currency = ' UAH';
+const discountMin = 3,
+      discountMax = 5;
 
-// if (amount < 500) {
-//     alert('The amount entered is not enough to get a discount!')
-// } else if (amount >= 500 && amount < 800) {
-//     alert(amount - ((amount*discountMin)/100) + currency);
-// } else if (amount >= 800) {
-//     alert(amount - ((amount*discountMax)/100) + currency);
-// } else {
-//     alert('You entered incorrect value! Please try again!')
-// }
+if (amount < 500) {
+    alert('The amount entered is not enough to get a discount!')
+} else if (amount >= 500 && amount < 800) {
+    alert(amount - ((amount*discountMin)/100) + currency);
+} else if (amount >= 800) {
+    alert(amount - ((amount*discountMax)/100) + currency);
+} else {
+    alert('You entered incorrect value! Please try again!')
+}
 
 
 
 // 5. Реалізувати функцію, яка приймає два числа і перевіряє, чи ділиться перше на друге націло (без залишку). Функція має повертати булеве значення: true, якщо ділиться без залишку, false - не ділиться без залишку.
 
-// const a = Number(prompt('Enter the first number: ')),
-//       b = Number(prompt('Enter the second number: '));
+const a = Number(prompt('Enter the first number: ')),
+      b = Number(prompt('Enter the second number: '));
 
-// if (a % b === 0) {
-//     console.log('True');
-//     // console.log(a % b === 0);
-// } else {
-//     console.log('False');
-//     // console.log(a % b === 0);
-// }
+if (a % b === 0) {
+    console.log('True');
+    // console.log(a % b === 0);
+} else {
+    console.log('False');
+    // console.log(a % b === 0);
+}
 
 
 
